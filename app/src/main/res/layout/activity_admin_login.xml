@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminLogin"
+    android:background="@drawable/adminloginback">
+
+
+
+    <EditText
+        android:id="@+id/mAdminEdtName"
+        style="@style/inputfield"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:hint="@string/Name"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="223dp" />
+
+    <EditText
+        android:id="@+id/mAdminEdtEmail"
+        style="@style/inputfield"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:hint="@string/Email"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="286dp" />
+
+    <EditText
+        android:id="@+id/mAdminEdtPassword"
+        style="@style/inputfield"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:ems="10"
+
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        app:passwordToggleEnabled="true"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="359dp" />
+
+    <Button
+        android:id="@+id/mAdminBtnLogin"
+        style="@style/buttons"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/Login"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="477dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

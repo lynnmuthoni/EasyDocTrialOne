@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.doctors.DoctorsFragment">
+
+    <Button
+        android:id="@+id/button"
+        style="@style/buttons_doctors"
+        android:text="@string/Dentist"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="152dp" />
+
+    <Button
+        android:id="@+id/button2"
+        style="@style/buttons_doctors"
+        android:text="@string/Dermatology"
+        tools:layout_editor_absoluteX="238dp"
+        tools:layout_editor_absoluteY="152dp" />
+
+    <Button
+        android:id="@+id/button3"
+        style="@style/buttons_doctors"
+        android:text="@string/Orthopedics"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="304dp" />
+
+    <Button
+        android:id="@+id/button4"
+        style="@style/buttons_doctors"
+        android:text="@string/Pediatrician"
+        tools:layout_editor_absoluteX="238dp"
+        tools:layout_editor_absoluteY="304dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

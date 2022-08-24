@@ -1,0 +1,7 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <item name="drawable_ambulance" type="drawable">@drawable/ambulance</item>
+    <item name="drawable_appointment" type="drawable">@drawable/appointment</item>
+    <item name="drawable_doctor" type="drawable">@drawable/doctwo</item>
+    <item name="drawable_hospital" type="drawable">@drawable/hospital</item>
+    <item name="drawable_logout" type="drawable">@drawable/logouttwo</item>
+</resources>

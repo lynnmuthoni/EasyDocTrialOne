@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.easydoc.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_doctors"
+        android:name="com.example.easydoc.ui.doctors.DoctorsFragment"
+        android:label="@string/menu_doctors"
+        tools:layout="@layout/fragment_doctors" />
+
+
+    <fragment
+        android:id="@+id/nav_appointments"
+        android:name="com.example.easydoc.ui.appointment.Appointment"
+        android:label="@string/menu_appointments"
+        tools:layout="@layout/fragment_appointment" />
+    <fragment
+        android:id="@+id/nav_ambulance"
+        android:name="com.example.easydoc.ui.ambulance.ambulanceFragment"
+        android:label="@string/menu_ambulance"
+        tools:layout="@layout/fragment_ambulance" />
+
+    <fragment
+        android:id="@+id/nav_logout"
+        android:name="com.example.easydoc.ui.doctors.DoctorsFragment"
+        android:label="@string/menu_logout"
+        tools:layout="@layout/fragment_logout" />
+
+
+</navigation>
